@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.2, duration: 0.8 }}
         >
-          System Online // Portfolio V3.0
+          System Online / Welcome I'm
         </motion.p>
         
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
