@@ -1,6 +1,7 @@
+
 import React from 'react';
 import { motion } from 'framer-motion';
-import { OWNER } from '../constants';
+import { OWNER, ASSETS } from '../constants';
 import { User, Award, Globe, Zap } from 'lucide-react';
 
 const About: React.FC = () => {
@@ -18,9 +19,8 @@ const About: React.FC = () => {
             {/* Image Container with Holographic Border */}
             <div className="relative z-10 rounded-lg overflow-hidden border-2 border-cyan-glow/30 p-2 bg-cosmic-900/50 backdrop-blur-sm shadow-[0_0_30px_rgba(0,229,255,0.15)]">
                 <div className="relative rounded overflow-hidden aspect-[3/4]">
-                     {/* Placeholder for Professional Photo */}
                      <img
-                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&q=80"
+                        src={ASSETS.profile_photo}
                         alt={OWNER.name}
                         className="w-full h-full object-cover filter contrast-110 grayscale hover:grayscale-0 transition-all duration-700 ease-out"
                     />

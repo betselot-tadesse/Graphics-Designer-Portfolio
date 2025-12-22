@@ -25,6 +25,27 @@ export const OWNER = {
   linkedin: "https://linkedin.com/in/betselot-tadesse-650a5a277"
 };
 
+/**
+ * IMAGE CONTROL CENTER
+ * Replace the URLs below with your own image links.
+ */
+export const ASSETS = {
+  // Your professional profile photo
+  profile_photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&q=80", // [REPLACE_IMAGE]
+  
+  // Project thumbnails
+  project_1: "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+  project_2: "https://images.unsplash.com/photo-1596462502278-27bfad450216?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+  project_3: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+  project_4: "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+  project_5: "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+  project_6: "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+  project_7: "https://images.unsplash.com/photo-1460317442991-0ec239397118?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+  project_8: "https://images.unsplash.com/photo-1493421416290-99a872404795?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+  project_9: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+  project_10: "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+};
+
 export const SKILLS: Skill[] = [
   { name: "Brand Identity", level: 95, category: 'core' },
   { name: "Social Media Designs", level: 98, category: 'core' },
@@ -94,7 +115,7 @@ export const PROJECTS: Project[] = [
     problem: "The client required a standardized, professional documentation suite that balanced corporate clarity with a modern, high-tech aesthetic.",
     solution: "Designed a comprehensive branding system including interactive forms, high-impact presentation templates, and a sleek typography-driven visual language.",
     tools: ["Illustrator", "InDesign", "Photoshop"],
-    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    image: ASSETS.project_1,
     visualOutcomes: ["Interactive Form Suite", "Digital Stationery Pack", "Professional Brand Guidelines"]
   },
   {
@@ -106,7 +127,7 @@ export const PROJECTS: Project[] = [
     problem: "Raw fashion photography required high-precision retouching to achieve a flawless 'glow' without losing natural skin texture.",
     solution: "Used frequency separation and dodging/burning techniques to enhance luminosity while maintaining realism and high resolution.",
     tools: ["Photoshop", "Lightroom"],
-    image: "https://images.unsplash.com/photo-1596462502278-27bfad450216?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    image: ASSETS.project_2,
     visualOutcomes: ["12 Print-Ready Assets", "Color Graded Variations", "Social-First Edits"]
   },
   {
@@ -118,7 +139,7 @@ export const PROJECTS: Project[] = [
     problem: "Users were overwhelmed by complex data sets, leading to high drop-off rates on the analytics page.",
     solution: "Simplified the information architecture using a modular glassmorphic design system that prioritizes key KPIs with visual hierarchy.",
     tools: ["Figma", "Illustrator"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    image: ASSETS.project_3,
     visualOutcomes: ["Interactive Prototype", "Dark Mode System", "Asset Library"]
   },
   {
@@ -130,7 +151,7 @@ export const PROJECTS: Project[] = [
     problem: "Low engagement rates due to inconsistent and outdated social media visuals that didn't appeal to Gen Z.",
     solution: "Created high-energy, motion-inspired static and video templates that utilized bold typography and glitch effects.",
     tools: ["Canva", "Photoshop", "After Effects"],
-    image: "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    image: ASSETS.project_4,
     visualOutcomes: ["20+ Instagram Post Layouts", "Animated Stories", "Event Highlight Covers"]
   },
   {
@@ -142,7 +163,7 @@ export const PROJECTS: Project[] = [
     problem: "Their existing site was slow and failed to communicate the innovative 'future' aspect of green energy.",
     solution: "Designed a clean, immersive web experience using large-scale imagery, micro-animations, and a focus on clarity.",
     tools: ["Figma", "Photoshop"],
-    image: "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    image: ASSETS.project_5,
     visualOutcomes: ["Full Landing Page Design", "Custom Iconography", "Mobile Optimized Layout"]
   },
   {
@@ -154,7 +175,7 @@ export const PROJECTS: Project[] = [
     problem: "The team needed a logo that looked aggressive yet professional enough for corporate sponsorship.",
     solution: "Iterated on a sharp, 'vanguard' shield motif with metallic textures and a unique glowing core element.",
     tools: ["Illustrator", "Photoshop"],
-    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    image: ASSETS.project_6,
     visualOutcomes: ["Vector Logo Kit", "Jerseys & Apparel Mockups", "Stream Overlay Pack"]
   },
   {
@@ -166,7 +187,7 @@ export const PROJECTS: Project[] = [
     problem: "Luxury properties were being undersold by a standard templated website.",
     solution: "Created a 'cinematic' layout where imagery takes center stage, supported by elegant, thin-weight typography.",
     tools: ["Figma", "Canva"],
-    image: "https://images.unsplash.com/photo-1460317442991-0ec239397118?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    image: ASSETS.project_7,
     visualOutcomes: ["Hi-Fi Design Specs", "User Flow Diagrams", "Marketing Microsite"]
   },
   {
@@ -178,7 +199,7 @@ export const PROJECTS: Project[] = [
     problem: "Difficulty in monetizing the audience due to a lack of professional aesthetic in brand collaborations.",
     solution: "Built a cohesive 'soft-tech' brand kit that combined organic colors with professional layouts for media kits.",
     tools: ["Canva", "Photoshop"],
-    image: "https://images.unsplash.com/photo-1493421416290-99a872404795?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    image: ASSETS.project_8,
     visualOutcomes: ["Media Kit Design", "Weekly Content Schedule Templates", "Presets Pack"]
   },
   {
@@ -190,7 +211,7 @@ export const PROJECTS: Project[] = [
     problem: "Event organizers needed to drive ticket sales through viral social content.",
     solution: "Designed 'Flash-Style' quick-read social cards that highlighted speakers and key dates using neon highlights.",
     tools: ["Illustrator", "Canva"],
-    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    image: ASSETS.project_9,
     visualOutcomes: ["Viral Post Set", "Speaker Intro Cards", "Interactive Q&A Templates"]
   },
   {
@@ -202,7 +223,7 @@ export const PROJECTS: Project[] = [
     problem: "The brand's digital ads lacked the visual 'punch' needed to stop scrollers on TikTok and Instagram.",
     solution: "Crafted a 10-second high-energy motion piece featuring 3D particle simulations and synchronized kinetic typography.",
     tools: ["After Effects", "Photoshop", "Premiere Pro"],
-    image: "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    image: ASSETS.project_10,
     visualOutcomes: ["Master Motion Intro", "6 Short-Form Ad Cuts", "Animated Brand Asset Library"]
   }
 ];
