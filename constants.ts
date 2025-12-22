@@ -1,3 +1,4 @@
+
 import { 
   Palette, 
   PenTool, 
@@ -7,7 +8,11 @@ import {
   Aperture,
   Briefcase,
   Camera,
-  Crop
+  Crop,
+  Video,
+  Share2,
+  Package,
+  BookOpen
 } from 'lucide-react';
 import { Project, Service, Skill, Testimonial } from './types';
 
@@ -56,6 +61,26 @@ export const SERVICES: Service[] = [
     title: "Creative Direction",
     description: "Guiding the visual narrative of your campaigns with cosmic precision and modern aesthetics.",
     icon: Layers
+  },
+  {
+    title: "Motion Graphics",
+    description: "Bringing static designs to life through high-energy animations and fluid kinetic typography.",
+    icon: Video
+  },
+  {
+    title: "Social Media Design",
+    description: "Creating high-converting visual content and aesthetic brand kits for all digital platforms.",
+    icon: Share2
+  },
+  {
+    title: "Packaging Design",
+    description: "Designing tangible brand experiences through innovative, luxury, and sustainable product packaging.",
+    icon: Package
+  },
+  {
+    title: "Print & Editorial",
+    description: "High-quality layout design for magazines, large-scale banners, and professional marketing collateral.",
+    icon: BookOpen
   }
 ];
 
@@ -63,50 +88,122 @@ export const PROJECTS: Project[] = [
   {
     id: 1,
     title: "Neon Horizon Branding",
-    category: "Branding",
-    description: "A complete identity overhaul for a tech startup focusing on cyberpunk aesthetics.",
-    tools: ["Illustrator", "Photoshop"],
-    image: "https://picsum.photos/800/600?random=1"
+    category: "Corporate Branding",
+    description: "A sophisticated identity and documentation system overhaul for a high-growth tech organization.",
+    client: "Nebula Systems",
+    problem: "The client required a standardized, professional documentation suite that balanced corporate clarity with a modern, high-tech aesthetic.",
+    solution: "Designed a comprehensive branding system including interactive forms, high-impact presentation templates, and a sleek typography-driven visual language.",
+    tools: ["Illustrator", "InDesign", "Photoshop"],
+    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    visualOutcomes: ["Interactive Form Suite", "Digital Stationery Pack", "Professional Brand Guidelines"]
   },
   {
     id: 2,
-    title: "Ethereal Beauty",
+    title: "Luxury Skin Retouching",
     category: "Retouching",
     description: "High-end skin and light retouching for a luxury cosmetic line campaign.",
+    client: "Éclat Cosmetics",
+    problem: "Raw fashion photography required high-precision retouching to achieve a flawless 'glow' without losing natural skin texture.",
+    solution: "Used frequency separation and dodging/burning techniques to enhance luminosity while maintaining realism and high resolution.",
     tools: ["Photoshop", "Lightroom"],
-    image: "https://picsum.photos/800/600?random=2"
+    image: "https://images.unsplash.com/photo-1596462502278-27bfad450216?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    visualOutcomes: ["12 Print-Ready Assets", "Color Graded Variations", "Social-First Edits"]
   },
   {
     id: 3,
-    title: "Cosmic Dashboard UI",
+    title: "FinTech Dashboard UI",
     category: "UI Design",
     description: "Futuristic dashboard interface design for a data analytics platform.",
+    client: "Vortex Capital",
+    problem: "Users were overwhelmed by complex data sets, leading to high drop-off rates on the analytics page.",
+    solution: "Simplified the information architecture using a modular glassmorphic design system that prioritizes key KPIs with visual hierarchy.",
     tools: ["Figma", "Illustrator"],
-    image: "https://picsum.photos/800/600?random=3"
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    visualOutcomes: ["Interactive Prototype", "Dark Mode System", "Asset Library"]
   },
   {
     id: 4,
-    title: "Stellar Typography",
-    category: "Layout",
-    description: "Editorial layout design featuring custom typography and experimental grids.",
-    tools: ["InDesign", "Illustrator"],
-    image: "https://picsum.photos/800/600?random=4"
+    title: "Urban Social Campaign",
+    category: "Social Media Designs",
+    description: "A comprehensive social media brand kit for a high-traffic urban event.",
+    client: "Metro Beats Festival",
+    problem: "Low engagement rates due to inconsistent and outdated social media visuals that didn't appeal to Gen Z.",
+    solution: "Created high-energy, motion-inspired static and video templates that utilized bold typography and glitch effects.",
+    tools: ["Canva", "Photoshop", "After Effects"],
+    image: "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    visualOutcomes: ["20+ Instagram Post Layouts", "Animated Stories", "Event Highlight Covers"]
   },
   {
     id: 5,
-    title: "Vortex Motion",
-    category: "Illustration",
-    description: "Digital illustration series depicting abstract cosmic events.",
-    tools: ["Procreate", "Photoshop"],
-    image: "https://picsum.photos/800/600?random=5"
+    title: "Solaris Web Experience",
+    category: "Website Design",
+    description: "Modern, sustainable-themed landing page with smooth parallax effects.",
+    client: "Solaris Green Energy",
+    problem: "Their existing site was slow and failed to communicate the innovative 'future' aspect of green energy.",
+    solution: "Designed a clean, immersive web experience using large-scale imagery, micro-animations, and a focus on clarity.",
+    tools: ["Figma", "Photoshop"],
+    image: "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    visualOutcomes: ["Full Landing Page Design", "Custom Iconography", "Mobile Optimized Layout"]
   },
   {
     id: 6,
-    title: "Urban Glitch",
-    category: "Manipulation",
-    description: "Photo manipulation project merging cityscapes with digital glitch artifacts.",
-    tools: ["Photoshop"],
-    image: "https://picsum.photos/800/600?random=6"
+    title: "E-Sport Team Identity",
+    category: "Branding",
+    description: "Branding for a professional gaming organization focusing on high-octane competitive play.",
+    client: "Apex Vanguards",
+    problem: "The team needed a logo that looked aggressive yet professional enough for corporate sponsorship.",
+    solution: "Iterated on a sharp, 'vanguard' shield motif with metallic textures and a unique glowing core element.",
+    tools: ["Illustrator", "Photoshop"],
+    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    visualOutcomes: ["Vector Logo Kit", "Jerseys & Apparel Mockups", "Stream Overlay Pack"]
+  },
+  {
+    id: 7,
+    title: "Quantum Realty Web",
+    category: "Website Design",
+    description: "High-end real estate portal for futuristic architectural properties.",
+    client: "Quantum Estates",
+    problem: "Luxury properties were being undersold by a standard templated website.",
+    solution: "Created a 'cinematic' layout where imagery takes center stage, supported by elegant, thin-weight typography.",
+    tools: ["Figma", "Canva"],
+    image: "https://images.unsplash.com/photo-1460317442991-0ec239397118?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    visualOutcomes: ["Hi-Fi Design Specs", "User Flow Diagrams", "Marketing Microsite"]
+  },
+  {
+    id: 8,
+    title: "Influencer Brand Kit",
+    category: "Social Media Designs",
+    description: "Personal branding and social content strategy for a lifestyle influencer.",
+    client: "Zoe Bloom Lifestyle",
+    problem: "Difficulty in monetizing the audience due to a lack of professional aesthetic in brand collaborations.",
+    solution: "Built a cohesive 'soft-tech' brand kit that combined organic colors with professional layouts for media kits.",
+    tools: ["Canva", "Photoshop"],
+    image: "https://images.unsplash.com/photo-1493421416290-99a872404795?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    visualOutcomes: ["Media Kit Design", "Weekly Content Schedule Templates", "Presets Pack"]
+  },
+  {
+    id: 9,
+    title: "Cyber-Vibe Promo",
+    category: "Social Media Designs",
+    description: "High-engagement Instagram story and post templates for a tech event.",
+    client: "TechFlow Dubai",
+    problem: "Event organizers needed to drive ticket sales through viral social content.",
+    solution: "Designed 'Flash-Style' quick-read social cards that highlighted speakers and key dates using neon highlights.",
+    tools: ["Illustrator", "Canva"],
+    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    visualOutcomes: ["Viral Post Set", "Speaker Intro Cards", "Interactive Q&A Templates"]
+  },
+  {
+    id: 10,
+    title: "Vortex Motion Intro",
+    category: "Motion Graphics",
+    description: "A high-octane animated intro for a futuristic sports supplement brand.",
+    client: "Vortex Nutrition",
+    problem: "The brand's digital ads lacked the visual 'punch' needed to stop scrollers on TikTok and Instagram.",
+    solution: "Crafted a 10-second high-energy motion piece featuring 3D particle simulations and synchronized kinetic typography.",
+    tools: ["After Effects", "Photoshop", "Premiere Pro"],
+    image: "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+    visualOutcomes: ["Master Motion Intro", "6 Short-Form Ad Cuts", "Animated Brand Asset Library"]
   }
 ];
 

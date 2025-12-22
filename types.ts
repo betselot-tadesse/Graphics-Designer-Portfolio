@@ -1,3 +1,4 @@
+
 import { LucideIcon } from 'lucide-react';
 
 export interface Project {
@@ -7,6 +8,10 @@ export interface Project {
   description: string;
   image: string;
   tools: string[];
+  client?: string;
+  problem?: string;
+  solution?: string;
+  visualOutcomes?: string[];
 }
 
 export interface Skill {
