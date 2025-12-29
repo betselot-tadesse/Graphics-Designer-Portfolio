@@ -18,7 +18,7 @@ import { Project, Service, Skill, Testimonial } from './types';
 
 export const OWNER = {
   name: "Betselot Tadesse",
-  title: "Graphics Designer",
+  title: "Creative Graphics Designer",
   location: "Dubai, UAE",
   phone: "+971 50 341 7022",
   email: "Betsiflash@gmail.com",
@@ -34,16 +34,16 @@ export const ASSETS = {
   profile_photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&q=80", // [REPLACE_IMAGE]
   
   // Project thumbnails
-  project_1: "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
-  project_2: "https://images.unsplash.com/photo-1596462502278-27bfad450216?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
-  project_3: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
-  project_4: "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
-  project_5: "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
-  project_6: "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
-  project_7: "https://images.unsplash.com/photo-1460317442991-0ec239397118?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
-  project_8: "https://images.unsplash.com/photo-1493421416290-99a872404795?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
-  project_9: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
-  project_10: "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?auto=format&fit=crop&w=1200&q=80", // [REPLACE_IMAGE]
+  project_1: "public/assets/portfolio/branding/portfolio-design.png", // [REPLACE_IMAGE]
+  project_2: "public/assets/portfolio/branding/mockup.png", // [REPLACE_IMAGE]
+  project_3: "public/assets/portfolio/branding/UI-design.png", // [REPLACE_IMAGE]
+  project_4: "public/assets/portfolio/branding/instagram-carasoul.png", // [REPLACE_IMAGE]
+  project_5: "public/assets/portfolio/branding/Real-estate.png", // [REPLACE_IMAGE]
+  project_6: "public/assets/portfolio/branding/branding-design.png", // [REPLACE_IMAGE]
+  project_7: "public/assets/portfolio/branding/menu-designn.png", // [REPLACE_IMAGE]
+  project_8: "public/assets/portfolio/branding/portfolio-design.png", // [REPLACE_IMAGE]
+  project_9: "public/assets/portfolio/branding/portfolio-design.png", // [REPLACE_IMAGE]
+  project_10: "public/assets/portfolio/branding/photo-retouching.png", // [REPLACE_IMAGE]
 };
 
 export const SKILLS: Skill[] = [
