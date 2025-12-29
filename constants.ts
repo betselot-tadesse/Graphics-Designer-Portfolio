@@ -18,7 +18,7 @@ import { Project, Service, Skill, Testimonial } from './types';
 
 export const OWNER = {
   name: "Betselot Tadesse",
-  title: "Creative Graphics Designer",
+  title: "Graphics Designer",
   location: "Dubai, UAE",
   phone: "+971 50 341 7022",
   email: "Betsiflash@gmail.com",
