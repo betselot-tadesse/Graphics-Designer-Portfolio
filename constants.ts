@@ -34,7 +34,7 @@ export const ASSETS = {
   profile_photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&q=80", // [REPLACE_IMAGE]
   
   // Project thumbnails
-  project_1: "/assets/portfolio/branding/portfolio-design.png", // [REPLACE_IMAGE]
+  project_1: "public/assets/portfolio/branding/portfolio-design.jpg", // [REPLACE_IMAGE]
   project_2: "/assets/portfolio/branding/mockup.png", // [REPLACE_IMAGE]
   project_3: "/assets/portfolio/branding/ui-design.png", // [REPLACE_IMAGE]
   project_4: "/assets/portfolio/branding/instagram-carasoul.png", // [REPLACE_IMAGE]
