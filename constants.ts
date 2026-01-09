@@ -35,15 +35,15 @@ export const ASSETS = {
   
   // Project thumbnails
   project_1: "/assets/portfolio/branding/portfolio-design.jpg", // [REPLACE_IMAGE]
-  project_2: "/assets/portfolio/branding/mockup.png", // [REPLACE_IMAGE]
-  project_3: "/assets/portfolio/branding/ui-design.png", // [REPLACE_IMAGE]
+  project_2: "/assets/portfolio/branding/mockup.jpg", // [REPLACE_IMAGE]
+  project_3: "/assets/portfolio/branding/ui-design.jpg", // [REPLACE_IMAGE]
   project_4: "/assets/portfolio/branding/instagram-carasoul.png", // [REPLACE_IMAGE]
-  project_5: "/assets/portfolio/branding/Real-estate.png", // [REPLACE_IMAGE]
-  project_6: "/assets/portfolio/branding/branding-design.png", // [REPLACE_IMAGE]
-  project_7: "/assets/portfolio/branding/menu-designn.png", // [REPLACE_IMAGE]
-  project_8: "/assets/portfolio/branding/portfolio-design.png", // [REPLACE_IMAGE]
-  project_9: "/assets/portfolio/branding/portfolio-design.png", // [REPLACE_IMAGE]
-  project_10: "/assets/portfolio/branding/photo-retouching.png", // [REPLACE_IMAGE]
+  project_5: "/assets/portfolio/branding/Real-estate.jpg", // [REPLACE_IMAGE]
+  project_6: "/assets/portfolio/branding/branding-design.jpg", // [REPLACE_IMAGE]
+  project_7: "/assets/portfolio/branding/menu-designn.jpg", // [REPLACE_IMAGE]
+  project_8: "/assets/portfolio/branding/portfolio-design.jpg", // [REPLACE_IMAGE]
+  project_9: "/assets/portfolio/branding/portfolio-design.jpg", // [REPLACE_IMAGE]
+  project_10: "/assets/portfolio/branding/photo-retouching.jpg", // [REPLACE_IMAGE]
 };
 
 export const SKILLS: Skill[] = [
