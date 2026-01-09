@@ -34,9 +34,9 @@ export const ASSETS = {
   profile_photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&q=80", // [REPLACE_IMAGE]
   
   // Project thumbnails
-  project_1: "/assets/portfolio/branding/portfolio-design.jpg", // [REPLACE_IMAGE]
-  project_2: "/assets/portfolio/branding/mockup.jpg", // [REPLACE_IMAGE]
-  project_3: "/assets/portfolio/branding/ui-design.jpg", // [REPLACE_IMAGE]
+  project_1: "/assets/portfolio/branding/portfolio-design.jpg",
+  project_2: "/assets/portfolio/branding/mockup.jpg",
+  project_3: "/assets/portfolio/branding/ui-design.jpg",
   project_4: "/assets/portfolio/branding/instagram-carasoul.png", // [REPLACE_IMAGE]
   project_5: "/assets/portfolio/branding/Real-estate.jpg", // [REPLACE_IMAGE]
   project_6: "/assets/portfolio/branding/branding-design.jpg", // [REPLACE_IMAGE]
