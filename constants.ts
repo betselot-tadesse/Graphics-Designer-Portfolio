@@ -143,15 +143,15 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 4,
-    title: "Urban Social Campaign",
+    title: "Luxury Living, Curated",
     category: "Social Media Designs",
-    description: "A comprehensive social media brand kit for a high-traffic urban event.",
-    client: "Metro Beats Festival",
-    problem: "Low engagement rates due to inconsistent and outdated social media visuals that didn't appeal to Gen Z.",
-    solution: "Created high-energy, motion-inspired static and video templates that utilized bold typography and glitch effects.",
-    tools: ["Canva", "Photoshop", "After Effects"],
+    description: "A high-end Instagram carousel campaign designed to showcase Octa Isle’s architectural elegance, waterfront exclusivity, and award-winning positioning through immersive visual storytelling.",
+    client: "Crystal Group",
+    problem: "Luxury real estate requires more than showcasing property — it must evoke aspiration, exclusivity, and lifestyle appeal within seconds on fast-scrolling social platforms.",
+    solution: "Created a visually cohesive Instagram carousel combining cinematic sunset renders, interior detailing, and prestige award branding to build emotional engagement and premium perception.",
+    tools: ["Luxury Typography Pairing", "Adobe Photoshop", "Social Media Layout Structuring", "Color Grading & Light Enhancement"],
     image: ASSETS.project_4,
-    visualOutcomes: ["20+ Instagram Post Layouts", "Animated Stories", "Event Highlight Covers"]
+    visualOutcomes: ["20+ Instagram Post Layouts", "Elevated luxury positioning", "High-end real estate branding appeal", "Strong lifestyle-driven storytelling"]
   },
   {
     id: 5,
