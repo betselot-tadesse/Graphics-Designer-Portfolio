@@ -35,7 +35,7 @@ export const ASSETS = {
   
   // Project thumbnails
   project_1: "/assets/portfolio/branding/portfolio-design.jpg",
-  project_2: "/assets/portfolio/branding/mockup.jpg",
+  project_2: "/assets/portfolio/branding/gtc-ui.jpg",
   project_3: "/assets/portfolio/branding/ui-design.jpg",
   project_4: "/assets/portfolio/branding/instagram-carousel.png",
   project_5: "/assets/portfolio/branding/Real-estate.jpg", // [REPLACE_IMAGE]
