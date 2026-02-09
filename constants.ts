@@ -227,6 +227,30 @@ export const PROJECTS: Project[] = [
     tools: ["After Effects", "Photoshop", "Premiere Pro"],
     image: ASSETS.project_10,
     visualOutcomes: ["Master Motion Intro", "6 Short-Form Ad Cuts", "Animated Brand Asset Library"]
+  },
+  
+    id: 11,
+    title: "Vortex Motion Intro",
+    category: "Motion Graphics",
+    description: "A high-octane animated intro for a futuristic sports supplement brand.",
+    client: "Vortex Nutrition",
+    problem: "The brand's digital ads lacked the visual 'punch' needed to stop scrollers on TikTok and Instagram.",
+    solution: "Crafted a 10-second high-energy motion piece featuring 3D particle simulations and synchronized kinetic typography.",
+    tools: ["After Effects", "Photoshop", "Premiere Pro"],
+    image: ASSETS.project_11,
+    visualOutcomes: ["Master Motion Intro", "6 Short-Form Ad Cuts", "Animated Brand Asset Library"]
+  },
+    
+    id: 12,
+    title: "Vortex Motion Intro",
+    category: "Motion Graphics",
+    description: "A high-octane animated intro for a futuristic sports supplement brand.",
+    client: "Vortex Nutrition",
+    problem: "The brand's digital ads lacked the visual 'punch' needed to stop scrollers on TikTok and Instagram.",
+    solution: "Crafted a 10-second high-energy motion piece featuring 3D particle simulations and synchronized kinetic typography.",
+    tools: ["After Effects", "Photoshop", "Premiere Pro"],
+    image: ASSETS.project_12,
+    visualOutcomes: ["Master Motion Intro", "6 Short-Form Ad Cuts", "Animated Brand Asset Library"]
   }
 ];
 
