@@ -155,15 +155,15 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 5,
-    title: "Solaris Web Experience",
-    category: "Website Design",
-    description: "Modern, sustainable-themed landing page with smooth parallax effects.",
-    client: "Solaris Green Energy",
-    problem: "Their existing site was slow and failed to communicate the innovative 'future' aspect of green energy.",
-    solution: "Designed a clean, immersive web experience using large-scale imagery, micro-animations, and a focus on clarity.",
-    tools: ["Figma", "Photoshop"],
+    title: "Sculpting Waterfront Luxury",
+    category: "Digital Campaign & Visual Storytelling",
+    description: "A luxury real estate Instagram carousel showcasing Octa Isle’s waterfront architecture, resort-style amenities, and branded interiors through refined visual storytelling.",
+    client: "Crystal Group",
+    problem: "High-end developments compete in an oversaturated luxury market where visuals must instantly communicate exclusivity, scale, and design sophistication on social platforms.",
+    solution: "Designed a minimal, image-led carousel highlighting architectural form, waterfront lifestyle, and brand prestige while maintaining visual consistency and premium balance.",
+    tools: ["Adobe Photoshop","Social Media Grid Structuring", "High-End Render Enhancement"],
     image: ASSETS.project_5,
-    visualOutcomes: ["Full Landing Page Design", "Custom Iconography", "Mobile Optimized Layout"]
+    visualOutcomes: ["Elevated architectural presence", "Strong luxury positioning","Premium real estate appeal", "Cohesive Instagram storytelling"]
   },
   {
     id: 6,
