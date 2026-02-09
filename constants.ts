@@ -143,16 +143,17 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 4,
-    title: "Luxury Living, Curated",
-    category: "Social Media Designs",
-    description: "A high-end Instagram carousel campaign designed to showcase Octa Isle’s architectural elegance, waterfront exclusivity, and award-winning positioning through immersive visual storytelling.",
-    client: "Crystal Group",
-    problem: "Luxury real estate requires more than showcasing property — it must evoke aspiration, exclusivity, and lifestyle appeal within seconds on fast-scrolling social platforms.",
-    solution: "Created a visually cohesive Instagram carousel combining cinematic sunset renders, interior detailing, and prestige award branding to build emotional engagement and premium perception.",
-    tools: ["Luxury Typography Pairing", "Adobe Photoshop", "Social Media Layout Structuring", "Color Grading & Light Enhancement"],
-    image: ASSETS.project_4,
-    visualOutcomes: ["20+ Instagram Post Layouts", "Elevated luxury positioning", "High-end real estate branding appeal", "Strong lifestyle-driven storytelling"]
+    title: "Multi-Industry UI/UX Systems",
+    category: "UI/UX Design",
+    description: "A collection of UI/UX concepts crafted for diverse industries including luxury fragrances, real estate brokerage, and technology-driven trading platforms — each tailored to reflect its market positioning and audience psychology.",
+    client: "BYT LLC",
+    problem: "Each industry demanded a distinct digital language — luxury storytelling for perfumes, trust-driven clarity for real estate, and performance-focused structure for tech platforms — without compromising usability.",
+    solution: "Developed tailored design systems for each sector, aligning typography, color psychology, layout hierarchy, and conversion strategy with their respective brand identities and user expectations.",
+    tools: ["Figma","Adobe Photoshop","Grid & Layout Systems","Color Psychology Strategy", "UX Wireframing"],
+    image: ASSETS.project_3,
+    visualOutcomes: ["Industry-specific brand expression", "Clear information architecture","Strong typographic hierarchy", "Conversion-focused layouts"]
   },
+ 
   {
     id: 5,
     title: "Sculpting Waterfront Luxury",
