@@ -108,15 +108,14 @@ export const SERVICES: Service[] = [
 export const PROJECTS: Project[] = [
   {
     id: 1,
-    title: "Neon Horizon Branding",
+    title: "GTC Metal Recycling portfolio",
     category: "Corporate Branding",
-    description: "A sophisticated identity and documentation system overhaul for a high-growth tech organization.",
-    client: "Nebula Systems",
-    problem: "The client required a standardized, professional documentation suite that balanced corporate clarity with a modern, high-tech aesthetic.",
-    solution: "Designed a comprehensive branding system including interactive forms, high-impact presentation templates, and a sleek typography-driven visual language.",
-    tools: ["Illustrator", "InDesign", "Photoshop"],
+    description: "A structured corporate portfolio designed for GTC Group’s Metal Recycling division, highlighting diversified operations, leadership strength, and industrial credibility through a sustainability-driven visual system.",
+    problem: "The company lacked a unified visual framework to present its multi-industry operations with clarity, authority, and environmental positioning.",
+    solution: "Built a hexagon-based modular layout inspired by industrial structure and sustainability, creating a cohesive system that organizes verticals, leadership, and client credibility with precision.",
+    tools: ["Illustrator", "Grid System Structuring", "Corporate Typography Hierarchy", "Photoshop"],
     image: ASSETS.project_1,
-    visualOutcomes: ["Interactive Form Suite", "Digital Stationery Pack", "Professional Brand Guidelines"]
+    visualOutcomes: ["Clear business architecture", "Strong eco-industrial identity", "Elevated corporate perception", "Improved investor presentation flow"]
   },
   {
     id: 2,
