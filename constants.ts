@@ -150,7 +150,7 @@ export const PROJECTS: Project[] = [
     problem: "Each industry demanded a distinct digital language — luxury storytelling for perfumes, trust-driven clarity for real estate, and performance-focused structure for tech platforms — without compromising usability.",
     solution: "Developed tailored design systems for each sector, aligning typography, color psychology, layout hierarchy, and conversion strategy with their respective brand identities and user expectations.",
     tools: ["Figma","Adobe Photoshop","Grid & Layout Systems","Color Psychology Strategy", "UX Wireframing"],
-    image: ASSETS.project_3,
+    image: ASSETS.project_4,
     visualOutcomes: ["Industry-specific brand expression", "Clear information architecture","Strong typographic hierarchy", "Conversion-focused layouts"]
   },
  
