@@ -119,15 +119,15 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 2,
-    title: "Luxury Skin Retouching",
-    category: "Retouching",
-    description: "High-end skin and light retouching for a luxury cosmetic line campaign.",
-    client: "Éclat Cosmetics",
-    problem: "Raw fashion photography required high-precision retouching to achieve a flawless 'glow' without losing natural skin texture.",
-    solution: "Used frequency separation and dodging/burning techniques to enhance luminosity while maintaining realism and high resolution.",
-    tools: ["Photoshop", "Lightroom"],
+    title: "GTC Metal Recycling – Website Design",
+    category: "UI Design",
+    description: "A modern industrial website designed for GTC Metal Recycling, transforming heavy manufacturing visuals into a structured, sustainability-driven digital presence.",
+    client: "GTC",
+    problem: "GTC needed a digital platform that balanced industrial strength with environmental responsibility while clearly presenting services, process transparency, and operational scale.",
+    solution: "Developed a conversion-focused website combining high-impact industrial imagery, structured process storytelling, and a green-forward visual system to reinforce trust and sustainability.",
+    tools: ["Figma","Conversion-Oriented UX Structuring", "Adobe Photoshop", "UI Grid System"],
     image: ASSETS.project_2,
-    visualOutcomes: ["12 Print-Ready Assets", "Color Graded Variations", "Social-First Edits"]
+    visualOutcomes: ["Strong industrial authority", "Clear service architecture", "Enhanced sustainability positioning" ,"Transparent recycling workflow"]
   },
   {
     id: 3,
