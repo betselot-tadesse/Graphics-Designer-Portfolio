@@ -143,15 +143,15 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 4,
-    title: "Sculpting Waterfront Luxury",
+    title: "Octa Isle Campaign Carousel",
     category: "Luxury Real Estate Marketing",
-    description: "A luxury real estate Instagram carousel showcasing Octa Isle’s waterfront architecture, resort-style amenities, and branded interiors through refined visual storytelling.",
-    client: "BYT LLC",
-    problem: "High-end developments compete in an oversaturated luxury market where visuals must instantly communicate exclusivity, scale, and design sophistication on social platforms.",
-    solution: "Designed a minimal, image-led carousel highlighting architectural form, waterfront lifestyle, and brand prestige while maintaining visual consistency and premium balance.",
-    tools: ["Figma","Adobe Photoshop","Grid & Layout Systems","Color Psychology Strategy", "UX Wireframing"],
+    description: "A high-end Instagram carousel campaign designed to showcase Octa Isle’s architectural elegance, waterfront exclusivity, and award-winning positioning through immersive visual storytelling.",
+    client: "Crystal Group",
+    problem: "Luxury real estate requires more than showcasing property — it must evoke aspiration, exclusivity, and lifestyle appeal within seconds on fast-scrolling social platforms.",
+    solution: "Created a visually cohesive Instagram carousel combining cinematic sunset renders, interior detailing, and prestige award branding to build emotional engagement and premium perception.",
+    tools: ["Color Grading & Light Enhancement","Adobe Photoshop","Social Media Layout Structuring", "Luxury Typography Pairing",],
     image: ASSETS.project_4,
-    visualOutcomes: ["Elevated architectural presence", "Strong luxury positioning","Cohesive Instagram storytelling", "Premium real estate appeal"]
+    visualOutcomes: ["Elevated luxury positioning", "Strong lifestyle-driven storytelling","Cohesive visual identity across slides", "High-end real estate branding appeal"]
   },
  
   {
