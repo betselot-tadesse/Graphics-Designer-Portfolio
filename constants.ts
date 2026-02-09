@@ -228,7 +228,7 @@ export const PROJECTS: Project[] = [
     image: ASSETS.project_10,
     visualOutcomes: ["Master Motion Intro", "6 Short-Form Ad Cuts", "Animated Brand Asset Library"]
   },
-  
+   {
     id: 11,
     title: "Vortex Motion Intro",
     category: "Motion Graphics",
@@ -240,7 +240,7 @@ export const PROJECTS: Project[] = [
     image: ASSETS.project_11,
     visualOutcomes: ["Master Motion Intro", "6 Short-Form Ad Cuts", "Animated Brand Asset Library"]
   },
-    
+     {
     id: 12,
     title: "Vortex Motion Intro",
     category: "Motion Graphics",
