@@ -41,7 +41,7 @@ export const ASSETS = {
   project_5: "/assets/portfolio/branding/Real-estate.jpg", // [REPLACE_IMAGE]
   project_6: "/assets/portfolio/branding/branding-design.jpg", // [REPLACE_IMAGE]
   project_7: "/assets/portfolio/branding/menu-design.jpg", // [REPLACE_IMAGE]
-  project_8: "/assets/portfolio/branding/portfolio-design.jpg", // [REPLACE_IMAGE]
+  project_8: "/assets/portfolio/branding/instagram-ads.jpg", // [REPLACE_IMAGE]
   project_9: "/assets/portfolio/branding/portfolio-design.jpg", // [REPLACE_IMAGE]
   project_10: "/assets/portfolio/branding/photo-retouching.jpg", // [REPLACE_IMAGE]
 };
@@ -183,7 +183,7 @@ export const PROJECTS: Project[] = [
     title: "Crystal Plaza Al Qasimia – Hotel Menu Design",
     category: "Print & Editorial Design",
     description: "A refined hotel menu system designed for Crystal Plaza Al Qasimia, combining structured layout, multilingual clarity, and appetizing food visuals to enhance in-room and restaurant dining experience.",
-    client: "Quantum Estates",
+    client: "Crystal Plaza Hospitality",
     problem: "The hotel required a clean, easy-to-navigate menu that maintained a professional hospitality image while presenting multiple cuisines and languages without overwhelming guests.",
     solution: "Designed a marble-inspired layout with a minimal typographic hierarchy, circular food framing, and structured category sections to ensure readability, visual balance, and premium presentation.",
     tools: ["Figma", "Canva"],
