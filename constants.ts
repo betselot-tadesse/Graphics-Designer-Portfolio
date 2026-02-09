@@ -131,15 +131,15 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 3,
-    title: "FinTech Dashboard UI",
-    category: "UI Design",
-    description: "Futuristic dashboard interface design for a data analytics platform.",
-    client: "Vortex Capital",
-    problem: "Users were overwhelmed by complex data sets, leading to high drop-off rates on the analytics page.",
-    solution: "Simplified the information architecture using a modular glassmorphic design system that prioritizes key KPIs with visual hierarchy.",
-    tools: ["Figma", "Illustrator"],
+    title: "Multi-Industry UI/UX Systems",
+    category: "UI/UX Design",
+    description: "A collection of UI/UX concepts crafted for diverse industries including luxury fragrances, real estate brokerage, and technology-driven trading platforms — each tailored to reflect its market positioning and audience psychology.",
+    client: "BYT LLC",
+    problem: "Each industry demanded a distinct digital language — luxury storytelling for perfumes, trust-driven clarity for real estate, and performance-focused structure for tech platforms — without compromising usability.",
+    solution: "Developed tailored design systems for each sector, aligning typography, color psychology, layout hierarchy, and conversion strategy with their respective brand identities and user expectations.",
+    tools: ["Figma","Adobe Photoshop","Grid & Layout Systems","Color Psychology Strategy", "UX Wireframing"],
     image: ASSETS.project_3,
-    visualOutcomes: ["Interactive Prototype", "Dark Mode System", "Asset Library"]
+    visualOutcomes: ["Industry-specific brand expression", "Clear information architecture","Strong typographic hierarchy", "Conversion-focused layouts"]
   },
   {
     id: 4,
