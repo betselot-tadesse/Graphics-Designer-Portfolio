@@ -143,15 +143,15 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 4,
-    title: "Multi-Industry UI/UX Systems",
-    category: "UI/UX Design",
-    description: "A collection of UI/UX concepts crafted for diverse industries including luxury fragrances, real estate brokerage, and technology-driven trading platforms — each tailored to reflect its market positioning and audience psychology.",
+    title: "Sculpting Waterfront Luxury",
+    category: "Luxury Real Estate Marketing",
+    description: "A luxury real estate Instagram carousel showcasing Octa Isle’s waterfront architecture, resort-style amenities, and branded interiors through refined visual storytelling.",
     client: "BYT LLC",
-    problem: "Each industry demanded a distinct digital language — luxury storytelling for perfumes, trust-driven clarity for real estate, and performance-focused structure for tech platforms — without compromising usability.",
-    solution: "Developed tailored design systems for each sector, aligning typography, color psychology, layout hierarchy, and conversion strategy with their respective brand identities and user expectations.",
+    problem: "High-end developments compete in an oversaturated luxury market where visuals must instantly communicate exclusivity, scale, and design sophistication on social platforms.",
+    solution: "Designed a minimal, image-led carousel highlighting architectural form, waterfront lifestyle, and brand prestige while maintaining visual consistency and premium balance.",
     tools: ["Figma","Adobe Photoshop","Grid & Layout Systems","Color Psychology Strategy", "UX Wireframing"],
     image: ASSETS.project_4,
-    visualOutcomes: ["Industry-specific brand expression", "Clear information architecture","Strong typographic hierarchy", "Conversion-focused layouts"]
+    visualOutcomes: ["Elevated architectural presence", "Strong luxury positioning","Cohesive Instagram storytelling", "Premium real estate appeal"]
   },
  
   {
