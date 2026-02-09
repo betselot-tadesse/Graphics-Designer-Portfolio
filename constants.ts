@@ -180,15 +180,15 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 7,
-    title: "Quantum Realty Web",
-    category: "Website Design",
-    description: "High-end real estate portal for futuristic architectural properties.",
+    title: "Crystal Plaza Al Qasimia – Hotel Menu Design",
+    category: "Print & Editorial Design",
+    description: "A refined hotel menu system designed for Crystal Plaza Al Qasimia, combining structured layout, multilingual clarity, and appetizing food visuals to enhance in-room and restaurant dining experience.",
     client: "Quantum Estates",
-    problem: "Luxury properties were being undersold by a standard templated website.",
-    solution: "Created a 'cinematic' layout where imagery takes center stage, supported by elegant, thin-weight typography.",
+    problem: "The hotel required a clean, easy-to-navigate menu that maintained a professional hospitality image while presenting multiple cuisines and languages without overwhelming guests.",
+    solution: "Designed a marble-inspired layout with a minimal typographic hierarchy, circular food framing, and structured category sections to ensure readability, visual balance, and premium presentation.",
     tools: ["Figma", "Canva"],
     image: ASSETS.project_7,
-    visualOutcomes: ["Hi-Fi Design Specs", "User Flow Diagrams", "Marketing Microsite"]
+    visualOutcomes: ["Clear menu hierarchy", "Multilingual accessibility","Enhanced dining presentation","Balanced image-to-text ratio", "Consistent visual alignment"]
   },
   {
     id: 8,
