@@ -37,7 +37,7 @@ export const ASSETS = {
   project_1: "/assets/portfolio/branding/portfolio-design.jpg",
   project_2: "/assets/portfolio/branding/mockup.jpg",
   project_3: "/assets/portfolio/branding/ui-design.jpg",
-  project_4: "/assets/portfolio/branding/instagram-carasoul.png",
+  project_4: "/assets/portfolio/branding/instagram-carousel.png",
   project_5: "/assets/portfolio/branding/Real-estate.jpg", // [REPLACE_IMAGE]
   project_6: "/assets/portfolio/branding/branding-design.jpg", // [REPLACE_IMAGE]
   project_7: "/assets/portfolio/branding/menu-designn.jpg", // [REPLACE_IMAGE]
