@@ -44,6 +44,8 @@ export const ASSETS = {
   project_8: "/assets/portfolio/branding/instagram-ads.jpg", // [REPLACE_IMAGE]
   project_9: "/assets/portfolio/branding/banner.jpg", // [REPLACE_IMAGE]
   project_10: "/assets/portfolio/branding/photo-retouching.jpg", // [REPLACE_IMAGE]
+  project_11: "/assets/portfolio/branding/mockup.jpg", // [REPLACE_IMAGE]
+  project_12: "/assets/portfolio/branding/photo-retouching.jpg", // [REPLACE_IMAGE]
 };
 
 export const SKILLS: Skill[] = [
