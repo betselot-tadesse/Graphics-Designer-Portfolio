@@ -43,7 +43,7 @@ export const ASSETS = {
   project_7: "/assets/portfolio/branding/menu-design.jpg", // [REPLACE_IMAGE]
   project_8: "/assets/portfolio/branding/instagram-ads.jpg", // [REPLACE_IMAGE]
   project_9: "/assets/portfolio/branding/banner.jpg", // [REPLACE_IMAGE]
-  project_10: "/assets/portfolio/branding/photo-retouching.jpg", // [REPLACE_IMAGE]
+  project_10: "/assets/portfolio/branding/combo.jpg", // [REPLACE_IMAGE]
   project_11: "/assets/portfolio/branding/mockup.jpg", // [REPLACE_IMAGE]
   project_12: "/assets/portfolio/branding/photo-retouching.jpg", // [REPLACE_IMAGE]
 };
