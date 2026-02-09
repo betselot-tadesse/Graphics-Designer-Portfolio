@@ -42,7 +42,7 @@ export const ASSETS = {
   project_6: "/assets/portfolio/branding/branding-design.jpg", // [REPLACE_IMAGE]
   project_7: "/assets/portfolio/branding/menu-design.jpg", // [REPLACE_IMAGE]
   project_8: "/assets/portfolio/branding/instagram-ads.jpg", // [REPLACE_IMAGE]
-  project_9: "/assets/portfolio/branding/portfolio-design.jpg", // [REPLACE_IMAGE]
+  project_9: "/assets/portfolio/branding/banner.jpg", // [REPLACE_IMAGE]
   project_10: "/assets/portfolio/branding/photo-retouching.jpg", // [REPLACE_IMAGE]
 };
 
