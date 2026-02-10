@@ -121,7 +121,7 @@ const Hero: React.FC = () => {
             </span>
           </motion.div>
           
-          <h1 className="font-display text-6xl md:text-8xl lg:text-9xl font-black mb-6 leading-none tracking-tight">
+          <h1 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-9xl font-black mb-6 leading-none tracking-tight">
             <div className="flex justify-center">
               {nameLetters.map((char, i) => (
                 <motion.span
