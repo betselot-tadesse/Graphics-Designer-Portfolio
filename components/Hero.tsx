@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
     <section 
       ref={containerRef}
       onMouseMove={handleMouseMove}
-      className="relative h-screen flex flex-col items-center justify-center px-6 overflow-hidden perspective-1000"
+      className="relative min-h-[100svh] flex flex-col items-center justify-center px-6 overflow-hidden perspective-1000"
     >
       {/* Dynamic Background Elements */}
       <motion.div 
