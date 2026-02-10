@@ -31,7 +31,7 @@ export const OWNER = {
  */
 export const ASSETS = {
   // Your professional profile photo
-  profile_photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&q=80", // [REPLACE_IMAGE]
+  profile_photo: "/assets/portfolio/branding/portfolio.jpg", // [REPLACE_IMAGE]
   
   // Project thumbnails
   project_1: "/assets/portfolio/branding/portfolio-design.jpg",
@@ -170,15 +170,15 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 6,
-    title: "E-Sport Team Identity",
+    title: "Multi-Industry Branding and Logo",
     category: "Branding",
-    description: "Branding for a professional gaming organization focusing on high-octane competitive play.",
-    client: "Apex Vanguards",
-    problem: "The team needed a logo that looked aggressive yet professional enough for corporate sponsorship.",
-    solution: "Iterated on a sharp, 'vanguard' shield motif with metallic textures and a unique glowing core element.",
+    description: "A collection of branding and visual identity projects developed across corporate hospitality, service-based businesses, and sports analysis platforms — each tailored to its target audience and market positioning.",
+    client: "Multi Industry",
+    problem: "Each client required a distinct brand presence — from refined corporate hospitality identity to bold sports-focused visual language — while maintaining clarity, recognition, and audience alignment.",
+    solution: "Developed tailored logo systems, campaign visuals, and promotional materials that align typography, color psychology, and composition strategy with each brand’s market positioning.",
     tools: ["Illustrator", "Photoshop"],
     image: ASSETS.project_6,
-    visualOutcomes: ["Vector Logo Kit", "Jerseys & Apparel Mockups", "Stream Overlay Pack"]
+    visualOutcomes: ["Vector Logo", "Distinct industry-specific identities","Enhanced brand recognition" "Targeted visual tone per audience"]
   },
   {
     id: 7,
@@ -194,63 +194,63 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 8,
-    title: "Influencer Brand Kit",
+    title: "Social Media Advertising",
     category: "Social Media Designs",
-    description: "Personal branding and social content strategy for a lifestyle influencer.",
-    client: "Zoe Bloom Lifestyle",
-    problem: "Difficulty in monetizing the audience due to a lack of professional aesthetic in brand collaborations.",
-    solution: "Built a cohesive 'soft-tech' brand kit that combined organic colors with professional layouts for media kits.",
-    tools: ["Canva", "Photoshop"],
+    description: "A high-conversion Ramadan Iftar Instagram ad campaign designed to promote Crystal Plaza Al Qasimia’s seasonal dining offer with culturally aligned visuals and premium hospitality aesthetics.",
+    client: "Crystal Plaza",
+    problem: "The hotel needed to promote a limited-time Iftar offer in a highly competitive Ramadan market where visuals must instantly communicate value, authenticity, and comfort while driving reservations.",
+    solution: "Designed a culturally aligned, conversion-focused Ramadan Iftar ad using premium food imagery, clear pricing hierarchy, and high-contrast layouts to drive immediate bookings.",
+    tools: ["Canva","Arabic & English Typography Structuring", "Social Media Ad Composition", "Photoshop"],
     image: ASSETS.project_8,
-    visualOutcomes: ["Media Kit Design", "Weekly Content Schedule Templates", "Presets Pack"]
+    visualOutcomes: ["Strong cultural alignment", "Clear pricing emphasis","Elevated hospitality positioning", "High food appeal (visual appetite trigger)"]
   },
   {
     id: 9,
-    title: "Cyber-Vibe Promo",
-    category: "Social Media Designs",
-    description: "High-engagement Instagram story and post templates for a tech event.",
-    client: "TechFlow Dubai",
-    problem: "Event organizers needed to drive ticket sales through viral social content.",
-    solution: "Designed 'Flash-Style' quick-read social cards that highlighted speakers and key dates using neon highlights.",
-    tools: ["Illustrator", "Canva"],
+    title: "Crystal Plaza Iftar Buffet – Outdoor Roll-Up Banner",
+    category: "Hospitality Print Advertising",
+    description: "A roll-up banner designed to promote Crystal Plaza Hotel’s Ramadan Iftar Buffet, combining traditional elegance, strong pricing hierarchy, and appetizing food visuals to attract walk-in guests.",
+    client: "Crystal Plaza",
+    problem: "The hotel needed a high-visibility outdoor banner that clearly communicated the Iftar offer and pricing within seconds to passing guests.",
+    solution: "Designed a high-contrast, price-focused banner with bold typography and warm Ramadan visuals to maximize instant readability and foot traffic conversion.",
+    tools: ["Illustrator","Photoshop", "Canva"],
     image: ASSETS.project_9,
-    visualOutcomes: ["Viral Post Set", "Speaker Intro Cards", "Interactive Q&A Templates"]
+    visualOutcomes: ["Clear offer communicationt", "Traditional Ramadan aesthetic","Immediate promotional impact", "High outdoor readability"]
   },
   {
     id: 10,
-    title: "Vortex Motion Intro",
-    category: "Motion Graphics",
-    description: "A high-octane animated intro for a futuristic sports supplement brand.",
+    title: "High-Impact Combo Offer Campaign Design",
+    category: "Restaurant Promotional Advertising",
+    description: "A bold promotional campaign designed to highlight limited-time fast-food combo offers using strong color contrast, appetizing food visuals, and aggressive pricing visibility.",
     client: "Vortex Nutrition",
     problem: "The brand's digital ads lacked the visual 'punch' needed to stop scrollers on TikTok and Instagram.",
-    solution: "Crafted a 10-second high-energy motion piece featuring 3D particle simulations and synchronized kinetic typography.",
+    solution: "The restaurant needed an eye-catching visual that could instantly communicate value, flavor, and urgency across a multilingual audience in a competitive food market.",
     tools: ["After Effects", "Photoshop", "Premiere Pro"],
     image: ASSETS.project_10,
-    visualOutcomes: ["Master Motion Intro", "6 Short-Form Ad Cuts", "Animated Brand Asset Library"]
+    visualOutcomes: ["Strong appetite appeal", "High-contrast color impact", "Multilingual communication","Clear limited-offer positioning"]
   },
   {
     id: 11,
-    title: "Vortex Motion Intro",
-    category: "Motion Graphics",
-    description: "A high-octane animated intro for a futuristic sports supplement brand.",
-    client: "Vortex Nutrition",
-    problem: "The brand's digital ads lacked the visual 'punch' needed to stop scrollers on TikTok and Instagram.",
-    solution: "Crafted a 10-second high-energy motion piece featuring 3D particle simulations and synchronized kinetic typography.",
-    tools: ["After Effects", "Photoshop", "Premiere Pro"],
+    title: "Rozana Kitchen – Brand & Packaging System",
+    category: "Brand Identity & Packaging Design",
+    description: "A cohesive brand and packaging system developed for Rozana Kitchen, combining traditional Middle Eastern patterns with modern minimal structure to create a premium yet culturally grounded food brand identity.",
+    client: "Crystal Group",
+    problem: "The brand required a distinctive packaging identity that reflected authenticity and freshness while standing out in a competitive ready-to-eat food market.",
+    solution: "Designed a culturally inspired, pattern-driven packaging system with refined typography and premium color balance to elevate everyday food presentation.",
+    tools: ["After Effects", "Photoshop", "Illustrator"],
     image: ASSETS.project_11,
-    visualOutcomes: ["Master Motion Intro", "6 Short-Form Ad Cuts", "Animated Brand Asset Library"]
+    visualOutcomes: ["Strong shelf presence", "Cultural authenticity","Premium green-and-cream identity system", "Consistent brand application across bag and container"]
   },
   {
     id: 12,
-    title: "Vortex Motion Intro",
-    category: "Motion Graphics",
-    description: "A high-octane animated intro for a futuristic sports supplement brand.",
-    client: "Vortex Nutrition",
-    problem: "The brand's digital ads lacked the visual 'punch' needed to stop scrollers on TikTok and Instagram.",
-    solution: "Crafted a 10-second high-energy motion piece featuring 3D particle simulations and synchronized kinetic typography.",
+    title: "Professional Portrait Retouching & Enhancement",
+    category: "Photo Retouching & Color Correction",
+    description: "A collection of portrait retouching projects focused on skin refinement, lighting balance, background enhancement, and natural color grading to elevate personal and lifestyle photography.",
+    client: "BYT",
+    problem: "Raw portraits often suffer from inconsistent lighting, uneven skin tones, distracting backgrounds, and lack of visual depth, reducing their professional impact.",
+    solution: "Applied professional skin retouching, tonal correction, and controlled color grading to enhance clarity while maintaining natural texture and realism.",
     tools: ["After Effects", "Photoshop", "Premiere Pro"],
     image: ASSETS.project_12,
-    visualOutcomes: ["Master Motion Intro", "6 Short-Form Ad Cuts", "Animated Brand Asset Library"]
+    visualOutcomes: ["Smooth yet natural skin finish", "Improved lighting balance","Background refinement", "Enhanced color vibrancy"]
   }
 ];
 
