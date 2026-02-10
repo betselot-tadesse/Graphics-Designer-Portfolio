@@ -178,7 +178,7 @@ export const PROJECTS: Project[] = [
     solution: "Developed tailored logo systems, campaign visuals, and promotional materials that align typography, color psychology, and composition strategy with each brand’s market positioning.",
     tools: ["Illustrator", "Photoshop"],
     image: ASSETS.project_6,
-    visualOutcomes: ["Vector Logo", "Distinct industry-specific identities","Enhanced brand recognition" "Targeted visual tone per audience"]
+    visualOutcomes: ["Vector Logo", "Distinct industry-specific identities","Enhanced brand recognition", "Targeted visual tone per audience"]
   },
   {
     id: 7,
