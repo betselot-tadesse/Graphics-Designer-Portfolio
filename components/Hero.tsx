@@ -172,12 +172,17 @@ const Hero: React.FC = () => {
                <div className="absolute inset-0 bg-cyan-glow/20 transform -translate-x-full skew-x-12 group-hover:translate-x-full transition-transform duration-700 ease-in-out" />
             </a>
             
-            <button className="group relative px-10 py-4 bg-transparent border border-slate-700 text-slate-300 rounded-sm font-tech uppercase tracking-[0.2em] hover:border-magenta-glow hover:text-magenta-glow transition-all duration-300 w-full sm:w-auto text-center">
-              <span className="flex items-center justify-center gap-2">
-                <Download size={18} /> Download Data
-              </span>
-              <div className="absolute inset-0 bg-magenta-glow/5 opacity-0 group-hover:opacity-100 transition-opacity" />
-            </button>
+            <a 
+  href="/resume/Betselot-Tadesse-Resume.pdf"
+  download
+  className="group relative px-10 py-4 bg-transparent border border-slate-700 text-slate-300 rounded-sm font-tech uppercase tracking-[0.2em] hover:border-magenta-glow hover:text-magenta-glow transition-all duration-300 w-full sm:w-auto text-center"
+>
+  <span className="flex items-center justify-center gap-2">
+    <Download size={18} /> Download Data
+  </span>
+  <div className="absolute inset-0 bg-magenta-glow/5 opacity-0 group-hover:opacity-100 transition-opacity" />
+</a>
+
           </motion.div>
         </motion.div>
       </motion.div>
