@@ -31,7 +31,7 @@ export const OWNER = {
  */
 export const ASSETS = {
   // Your professional profile photo
-  profile_photo: "/assets/portfolio/branding/portfolio.jpg", // [REPLACE_IMAGE]
+  profile_photo: "/assets/portfolio/branding/portfolio.jpeg", // [REPLACE_IMAGE]
   
   // Project thumbnails
   project_1: "/assets/portfolio/branding/portfolio-design.jpg",
