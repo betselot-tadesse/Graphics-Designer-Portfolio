@@ -178,7 +178,7 @@ const Hero: React.FC = () => {
   className="group relative px-10 py-4 bg-transparent border border-slate-700 text-slate-300 rounded-sm font-tech uppercase tracking-[0.2em] hover:border-magenta-glow hover:text-magenta-glow transition-all duration-300 w-full sm:w-auto text-center"
 >
   <span className="flex items-center justify-center gap-2">
-    <Download size={18} /> Download Data
+    <Download size={18} /> Download Resume
   </span>
   <div className="absolute inset-0 bg-magenta-glow/5 opacity-0 group-hover:opacity-100 transition-opacity" />
 </a>
