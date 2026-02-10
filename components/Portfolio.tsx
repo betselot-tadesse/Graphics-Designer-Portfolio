@@ -270,7 +270,7 @@ const Portfolio: React.FC = () => {
                         {/* Call to action */}
                         <div className="pt-6">
                            <button className="flex items-center justify-center gap-3 bg-white text-cosmic-900 px-8 py-4 rounded-sm font-display font-bold text-xs uppercase tracking-[0.1em] hover:bg-cyan-glow hover:text-cosmic-900 transition-all duration-300 w-full group shadow-[0_0_20px_rgba(255,255,255,0.1)]">
-                            Launch Project <ExternalLink size={14} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+                            Graphics Project
                           </button>
                         </div>
                       </div>
