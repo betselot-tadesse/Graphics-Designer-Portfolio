@@ -250,7 +250,7 @@ export const PROJECTS: Project[] = [
     solution: "Applied professional skin retouching, tonal correction, and controlled color grading to enhance clarity while maintaining natural texture and realism.",
     tools: ["After Effects", "Photoshop", "Premiere Pro"],
     image: ASSETS.project_12,
-    visualOutcomes: ["Smooth yet natural skin finish", "Improved lighting balance","Background refinement", "Enhanced color vibrancy"]
+    visualOutcomes: ["Smooth yet natural skin finish", "Improved lighting balance", "Background refinement", "Enhanced color vibrancy"]
   }
 ];
 
