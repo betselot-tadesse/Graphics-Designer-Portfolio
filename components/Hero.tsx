@@ -173,7 +173,7 @@ const Hero: React.FC = () => {
             </a>
             
             <a 
-  href="/resume/Betselot-Tadesse-Resume.pdf"
+  href="/assets/portfolio/branding/Resume_Graphics_Web_Design.pdf"
   download
   className="group relative px-10 py-4 bg-transparent border border-slate-700 text-slate-300 rounded-sm font-tech uppercase tracking-[0.2em] hover:border-magenta-glow hover:text-magenta-glow transition-all duration-300 w-full sm:w-auto text-center"
 >
