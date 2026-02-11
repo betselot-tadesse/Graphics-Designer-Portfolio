@@ -46,6 +46,12 @@ export const ASSETS = {
   project_10: "/assets/portfolio/branding/combo.jpg", // [REPLACE_IMAGE]
   project_11: "/assets/portfolio/branding/mockup.jpg", // [REPLACE_IMAGE]
   project_12: "/assets/portfolio/branding/photo-retouching.jpg", // [REPLACE_IMAGE]
+  project_13: "/assets/portfolio/branding/amazon.jpg", // [REPLACE_IMAGE]
+  project_14: "/assets/portfolio/branding/billboard.jpg", // [REPLACE_IMAGE]
+  project_15: "/assets/portfolio/branding/byt-perfume.jpg", // [REPLACE_IMAGE]
+  project_16: "/assets/portfolio/branding/car.jpg", // [REPLACE_IMAGE]
+  project_17: "/assets/portfolio/branding/jeweley.jpg", // [REPLACE_IMAGE]
+  project_18: "/assets/portfolio/branding/hospital.jpg", // [REPLACE_IMAGE]
 };
 
 export const SKILLS: Skill[] = [
@@ -251,6 +257,79 @@ export const PROJECTS: Project[] = [
     tools: ["After Effects", "Photoshop", "Premiere Pro"],
     image: ASSETS.project_12,
     visualOutcomes: ["Smooth yet natural skin finish", "Improved lighting balance", "Background refinement", "Enhanced color vibrancy"]
+  },
+   {
+    id: 13,
+    title: "BYT Smartwatch – Amazon Listing Conversion Design",
+    category: "E-Commerce Product Listing Design",
+    description: "A high-conversion Amazon product image system designed to position the BYT Smartwatch as a performance-driven, premium fitness device in a competitive marketplace.",
+    client: "Online Retail",
+    problem: "Fitness smartwatch listings on Amazon often look generic and fail to clearly differentiate features, benefits, and competitive advantages within seconds.",
+    solution: "Created a bold, feature-focused visual hierarchy combining performance-driven typography, high-contrast lighting, and comparison graphics to instantly communicate superiority and value.",
+    tools: ["Canva","Adobe Photoshop", "Adobe Illustrator"],
+    image: ASSETS.project_13,
+    visualOutcomes: ["Clear 24/7 performance positioning", "Strong feature callouts (Heart Rate, Sleep, Battery)","Lifestyle integration shot for emotional appeal", "Amazon-optimized infographic layout"]
+  },
+  {
+    id: 14,
+    title: "Marina Villas – Integrated Luxury Real Estate Campaign",
+    category: "Luxury Real Estate Advertising & Campaign Design",
+    description: "A premium cross-platform advertising campaign created to position waterfront villas in Dubai Marina as an aspirational lifestyle investment.",
+    client: "BYT Real Estate",
+    problem: "Luxury real estate buyers are exposed to constant high-end visuals, making it difficult for developments to stand out while maintaining elegance and trust.",
+    solution: "Developed a cohesive luxury campaign system combining refined serif typography, cinematic waterfront renders, and high-contrast gold-accent hierarchy across both digital (Instagram) and outdoor billboard formats.",
+    tools: ["Illustrator","Adobe Photoshop", "Mockup Compositing","Canva"],
+    image: ASSETS.project_14,
+    visualOutcomes: ["Unified cross-platform brand presence (Social + Outdoor)", "Strong luxury positioning through navy & gold palette","Clear call-to-action hierarchy", "Emotional lifestyle-driven storytelling"]
+  },
+  
+  {
+    id: 15,
+    title: "BYT – Luxury Fragrance Brand & Packaging System",
+    category: "Brand Identity & Packaging Design",
+    description: "A premium fragrance brand concept designed to embody authority, legacy, and timeless leadership through a refined black-and-gold visual identity system.",
+    client: "BYT Perfumes",
+    problem: "The luxury fragrance market is saturated with visually similar black-bottle brands that rely on generic elegance without building a strong narrative or symbolic positioning.",
+    solution: "Developed a commanding identity built around matte-black minimalism, metallic gold hierarchy, and a time-driven brand philosophy (“Beyond Your Time”) reinforced through packaging messaging and cinematic product presentation.",
+    tools: ["Adobe Photoshop", "Illustrator"],
+    image: ASSETS.project_15,
+    visualOutcomes: ["Strong shelf presence", "Cultural authenticity","Premium green-and-cream identity system", "Consistent brand application across bag and container"]
+  },
+  {
+    id: 16,
+    title: "Drive Dominance – Luxury SUV Billboard Campaign",
+    category: "Luxury Automotive Advertising / Outdoor Billboard Design",
+    description: "A high-impact outdoor billboard campaign concept designed to position a luxury SUV as a symbol of authority, prestige, and elite performance.",
+    client: "Delap Cars",
+    problem: "Luxury automotive advertising in outdoor spaces must communicate power, status, and aspiration within seconds to fast-moving urban audiences, without overcrowding the visual field.",
+    solution: "Designed a minimal, dominance-driven billboard using cinematic lighting, deep contrast, and commanding typography to elevate the SUV as a symbol of executive power and elite presence.",
+    tools: ["AI Rendering Tool", "Adobe Photoshop", "Illustrator"],
+    image: ASSETS.project_16,
+    visualOutcomes: ["Dark, premium atmosphere with controlled smoke texture", "Strong typographic hierarchy (headline → subline → CTA)", "Balanced negative space to enhance luxury perception","Gold-accented CTA buttons for prestige positioning"]
+  },
+  {
+    id: 17,
+    title: "Beyond Luxury – Ultra High-End Jewelry Website Hero",
+    category: "Luxury Jewelry Branding / Website Hero Design",
+    description: "A premium website hero section designed for an ultra high-net-worth jewelry brand, combining cinematic lighting, gold particle effects, and editorial elegance to communicate exclusivity and bespoke craftsmanship.",
+    client: "BYT",
+    problem: "The luxury jewelry market is saturated with brands claiming exclusivity, elegance, and prestige — making it difficult to visually differentiate and instantly communicate ultra-premium positioning to high-value clientele.",
+    solution: "Designed a cinematic, high-contrast hero that positions the brand as an exclusive, authority-level jewelry house through refined typography, lighting, and editorial styling.",
+    tools: ["Figma", "Adobe Photoshop", "HTML & CSS", "Javascript"],
+    image: ASSETS.project_17,
+    visualOutcomes: ["Strong premium hierarchy (Headline → Subline → CTA)", "Balanced negative space enhancing luxury perception", "Cohesive gold-on-black dominance", "Enhanced color vibrancy"]
+  },
+   {
+    id: 18,
+    title: "Premium Family Healthcare Campaign",
+    category: "Healthcare Print Advertising",
+    description: "A premium healthcare print campaign designed to position the clinic as a private, family-focused medical provider, combining warmth, trust, and refined visual structure to elevate brand perception beyond standard clinical advertising.",
+    client: "NMC",
+    problem: "Private healthcare brands often look either too clinical or too generic, failing to communicate warmth and exclusivity at the same tim",
+    solution: "Designed a soft, trust-driven medical campaign blending luxury tones, family-centered imagery, and refined typography to position the service as both elite and compassionate.",
+    tools: ["Layout & Print Composition System", "Adobe Photoshop","Typography Structuring", "Illustrator"],
+    image: ASSETS.project_18,
+    visualOutcomes: ["Elevated premium healthcare positioning", "Strong emotional trust and family connection","Clear service hierarchy and readability", "Soft luxury aesthetic with clinical credibility"]
   }
 ];
 
