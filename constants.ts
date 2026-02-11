@@ -48,7 +48,7 @@ export const ASSETS = {
   project_12: "/assets/portfolio/branding/photo-retouching.jpg", // [REPLACE_IMAGE]
   project_13: "/assets/portfolio/branding/amazon.jpg", // [REPLACE_IMAGE]
   project_14: "/assets/portfolio/branding/billboard.jpg", // [REPLACE_IMAGE]
-  project_15: "/assets/portfolio/branding/byt-perfume.jpg", // [REPLACE_IMAGE]
+  project_15: "/assets/portfolio/branding/byt-perfume.png", // [REPLACE_IMAGE]
   project_16: "/assets/portfolio/branding/car.jpg", // [REPLACE_IMAGE]
   project_17: "/assets/portfolio/branding/jeweley.jpg", // [REPLACE_IMAGE]
   project_18: "/assets/portfolio/branding/hospital.jpg", // [REPLACE_IMAGE]
